@@ -1,13 +1,39 @@
-site_name: PLA Recycle
 theme:
   name: material
-extra_javascript:
-  - /assets/js/animations.js
-extra_css:
-  - /assets/css/styles.css
+  features:
+    - homepage.hero
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: "Modo nocturno"
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: "Modo diurno"
+  font:
+    text: Roboto
+    code: Roboto Mono
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - pymdownx.superfences
+site_name: Recicladora de Filamento PLA
 nav:
   - Inicio: index.md
-  - Proceso de Reciclaje: proceso.md
-  - Información del reciclaje: proceso2.md
-  - Contacto: contacto.md
-
+  - Presentación: presentacion.md
+  - Plástico PLA: plastico_PLA.md
+  - Funcionamiento de la extrusora: extrusora.md
+  - Componentes principales: componentes.md
+  - Ecuaciones y cálculos: ecuaciones.md
+  - Referencias: referencias.md
