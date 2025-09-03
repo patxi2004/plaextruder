@@ -1,0 +1,13 @@
+site_name: PLA Recycle
+theme:
+  name: material
+extra_javascript:
+  - /assets/js/animations.js
+extra_css:
+  - /assets/css/styles.css
+nav:
+  - Inicio: index.md
+  - Proceso de Reciclaje: proceso.md
+  - Información del reciclaje: proceso2.md
+  - Contacto: contacto.md
+

@@ -1,0 +1,96 @@
+/* Ocultar barra lateral solo en la página de inicio */
+/* Ocultar la barra lateral solo en la página de inicio */
+.home .md-sidebar {
+  display: none !important;
+}
+
+/* Expandir el contenido para ocupar todo el ancho */
+.home .md-content {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+/* Opcional: centrar el contenido principal */
+.home .md-main__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Fondo de pantalla completa */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../img/entradauni.webp') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Logo */
+#logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 120px;
+  height: auto;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: logoFadeBounce 3s forwards;
+
+}
+
+@keyframes logoFadeBounce {
+  0% { opacity: 0; transform: translateY(-20px); }
+  50% { opacity: 1; transform: translateY(5px); }
+  70% { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+
+/* Botones animados de navegación */
+.nav-button {
+  display: inline-block;
+  background: rgba(76, 175, 80, 0.8);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  margin: 20px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+.nav-button:hover {
+  background: #66bb6a;
+  box-shadow: 0 0 20px rgba(255,255,255,0.6), 0 10px 25px rgba(0,0,0,0.2);
+  transform: translateY(-5px) scale(1.05);
+
+}
+
+/* Contenedor de contenido con scroll largo */
+.content-container {
+  max-width: 900px;
+  margin: 150px auto 50px auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+  border-radius: 20px;
+}
+
+/* Animación fade-in para secciones */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+  margin-bottom: 50px;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
