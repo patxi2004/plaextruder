@@ -11,7 +11,7 @@ hide:
 [![Plástico PLA](https://img.shields.io/badge/🌱_Plástico_PLA-228B22?style=for-the-badge&logo=leaflet&logoColor=white)](plastico_PLA.md)
 [![Funcionamiento Extrusora](https://img.shields.io/badge/⚙️_Funcionamiento_Extrusora-006400?style=for-the-badge&logo=gear&logoColor=white)](extrusora.md)
 [![Componentes](https://img.shields.io/badge/🔩_Componentes_Principales-20B2AA?style=for-the-badge&logo=tools&logoColor=white)](componentes.md)
-[![Ecuaciones](https://img.shields.io/badge/📐_Ecuaciones_y_Cálculos-3CB371?style=for-the-badge&logo=python&logoColor=white)](ecuaciones.md)
+[![Contacto](https://img.shields.io/badge/📐_Ecuaciones_y_Cálculos-3CB371?style=for-the-badge&logo=python&logoColor=white)](contacto.md)
 [![Referencias](https://img.shields.io/badge/📚_Referencias-32CD32?style=for-the-badge&logo=bookstack&logoColor=white)](referencias.md)
 
 
@@ -131,28 +131,4 @@ Crear una solución tecnológica <span style="color:#008000;"><b>sostenible</b><
 
 ---
 
-## 🤝 <span style="color:#228B22;">Colaboración y Futuro</span>
 
-<ul>
-<li><b>Open Source:</b> Proyecto abierto a contribuciones</li>
-<li>Integrar más tipos de plásticos biodegradables</li>
-<li>Expandir procesos eficientes y sostenibles</li>
-<li>Crear conciencia y educación ambiental</li>
-</ul>
-
----
-
-## 📞 <span style="color:#228B22;">Contacto</span>
-
-<p>
-<b>GitHub:</b> <a href="https://github.com/Mrlogros/Recicladora-de-plastico-PLA" target="_blank" style="color:#006400; text-decoration:none;">Mrlogros/Recicladora-de-plastico-PLA</a><br>
-<b>Correo:</b> <a href="mailto:tu.email@example.com" style="color:#006400; text-decoration:none;">tu.email@example.com</a><br>
-<b>Teléfono:</b> +52 55 1234 5678
-</p>
-
----
-
-<p style="text-align:center; color:#228B22; font-weight:bold; font-size:1.4em;">
-¡Gracias por tu atención!<br>
-Juntos podemos construir un futuro más verde y sostenible ♻️🌍
-</p>
