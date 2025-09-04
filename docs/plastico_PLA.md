@@ -21,7 +21,7 @@ El PLA es un termoplástico popular en impresión 3D; proviene de recursos renov
 
 <!-- Hero con imagen y puntos clave -->
 <div style="display:flex; gap:16px; flex-wrap:wrap; align-items:flex-start; background:#0b1220; border:1px solid #1f2937; padding:14px; border-radius:10px;">
-  <img src="assets/img/BobinadePLA.jpg" alt="Bobina de PLA" style="max-width:320px; border-radius:8px; border:1px solid #1f2937;">
+  <img src="/assets/img/bobina.jpg" alt="Bobina de PLA" style="max-width:320px; border-radius:8px; border:1px solid #1f2937;">
   <div style="min-width:260px; flex:1;">
     <ul style="margin:0; padding-left:18px; color:#e5e7eb;">
       <li>Origen biobasado y potencialmente biodegradable en condiciones controladas.</li>
@@ -117,8 +117,8 @@ El PLA es un termoplástico popular en impresión 3D; proviene de recursos renov
 </div>
 
 <div style="margin-top:10px; display:flex; gap:12px; flex-wrap:wrap;">
-  <img src="assets/img/diagramadeprocesodeinyeccion PLA.webp" alt="Diagrama proceso de inyección PLA" style="max-width:300px; border:1px solid #1f2937; border-radius:8px;">
-  <img src="assets/img/PiezainyectadaenPLA.png" alt="Pieza inyectada en PLA" style="max-width:300px; border:1px solid #1f2937; border-radius:8px;">
+  <img src="/assets/img/inyeccion.webp" alt="Diagrama proceso de inyección PLA" style="max-width:300px; border:1px solid #1f2937; border-radius:8px;">
+  <img src="/assets/img/piezapla.png" alt="Pieza inyectada en PLA" style="max-width:300px; border:1px solid #1f2937; border-radius:8px;">
 </div>
 
 ---
@@ -133,7 +133,7 @@ El PLA es un termoplástico popular en impresión 3D; proviene de recursos renov
       <li>Mejor para corrientes limpias y homogéneas; menor costo energético.</li>
       <li>Propiedades degradan tras múltiples ciclos; considerar aditivos/mezclas.</li>
     </ol>
-    <img src="assets/img/FlujomecanicoPLA.webp" alt="Flujo mecánico PLA" style="max-width:100%; border:1px solid #1f2937; border-radius:8px;">
+    <img src="/assets/img/flujopla.webp" alt="Flujo mecánico PLA" style="max-width:100%; border:1px solid #1f2937; border-radius:8px;">
   </div>
   <div style="border:1px solid #1f2937; border-radius:10px; padding:12px;">
     <h3 style="margin:0 0 6px; font-weight:800;">Reciclaje químico</h3>
@@ -142,7 +142,7 @@ El PLA es un termoplástico popular en impresión 3D; proviene de recursos renov
       <li>Purificación → re-polimerización para PLA de alta calidad.</li>
       <li>Admite residuos contaminados o mezclados; proceso más complejo y costoso.</li>
     </ol>
-    <img src="assets/img/FlujoquimicoPLA.webp" alt="Flujo químico PLA" style="max-width:100%; border:1px solid #1f2937; border-radius:8px;">
+    <img src="/assets/img/flujo.webp" alt="Flujo químico PLA" style="max-width:100%; border:1px solid #1f2937; border-radius:8px;">
   </div>
 </div>
 
